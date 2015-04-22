@@ -25,4 +25,9 @@ Public Class frmBloc
     Private Sub frmBloc_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        MessageBox.Show("Codigo")
+
+    End Sub
 End Class
